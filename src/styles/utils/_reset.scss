@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+ul,
+li,
+p,
+h2,
+h3 {
+  margin: 0;
+}
