@@ -433,20 +433,26 @@
 
             <div class="grid__item grid__item--8-12">
               <form action="#" method="GET">
-                <input
-                  name="name"
-                  type="text"
-                  placeholder="Name"
-                  class="contact-us__field form-field form-field--container"
-                  required
-                >
-                <input
-                  name="email"
-                  type="email"
-                  placeholder="Email"
-                  class="contact-us__field form-field form-field--container"
-                  required
-                >
+                <label for="name">
+                  <input
+                    name="name"
+                    type="text"
+                    id="name"
+                    placeholder="Name"
+                    class="contact-us__field form-field form-field--container"
+                    required
+                  >
+                </label>
+                <label for="email">
+                  <input
+                    name="email"
+                    type="email"
+                    id="email"
+                    placeholder="Email"
+                    class="contact-us__field form-field form-field--container"
+                    required
+                  >
+                </label>
                 <textarea
                   name="message"
                   placeholder="Message"
